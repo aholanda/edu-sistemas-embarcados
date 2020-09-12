@@ -12,33 +12,31 @@
 
 2. Teste os trechos de Assembly no EdSim51. Descreva a operação que cada instrução realiza.
 
-    1.
+i.
 ```assembly
 MOV A, #4
 ```
-    2.
+
+ii.
 ```assembly
 MOV A, #3
 MOV R0, A
 ```
 
-
-    3.
+iii.
 ```assembly
 MOV A, 4
 MOV R4, A
 ; Atribua um valor qualquer no endereço 4 da RAM
 ```
 
-
-    4.
+iv.
 ```assembly
 MOV 32, #10
 MOV R7, 32
 ```
 
-
-    5.
+v.
 ```assembly
 MOV R1, #7
 MOV 0, @R1
