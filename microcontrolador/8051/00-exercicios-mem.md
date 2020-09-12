@@ -16,8 +16,6 @@
 ```assembly
 MOV A, #4
 ```
-
-
     2.
 ```assembly
 MOV A, #3
