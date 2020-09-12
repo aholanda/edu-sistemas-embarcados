@@ -2,18 +2,19 @@
 ## Operações de Memória
 
 1. Converta para a linguagem Assembly as operações a seguir:
-    a. Mover o valor 5 para o acumulador A.
+    1. Mover o valor 5 para o acumulador A.
     
-    b. Mover o valor 8 para o acumulador A e depois para o registrador R1.
+    2. Mover o valor 8 para o acumulador A e depois para o registrador R1.
     
-    c. Atribuir o valor 30 para o endereço de memória 4 na RAM, copiar o valor deste endereço para o acumulador A e depois para o registrador R4.
+    3. Atribuir o valor 30 para o endereço de memória 4 na RAM, copiar o valor deste endereço para o acumulador A e depois para o registrador R4.
     
-    d. Copiar o valor contido no endereço de memória RAM armazenado no registrador R4 para o registrador R1.
+    4. Copiar o valor contido no endereço de memória RAM armazenado no registrador R4 para o registrador R1.
 
 2. Teste os trechos de Assembly no EdSim51. Descreva a operação que cada instrução realiza.
 
-    a.
-```
+    1.
+
+```assembly
 MOV A, #4
 ```
 
