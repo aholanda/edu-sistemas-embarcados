@@ -17,11 +17,13 @@
 MOV A, #4
 ```
 
+
     b.
 ```
 MOV A, #3
 MOV R0, A
 ```
+
 
     c.
 ```
@@ -30,11 +32,13 @@ MOV R4, A
 ; Atribua um valor qualquer no endereço 4 da RAM
 ```
 
+
     d.
 ```
 MOV 32, #10
 MOV R7, 32
 ```
+
 
     e.
 ```
