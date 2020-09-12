@@ -1,7 +1,7 @@
 # Exercícios
 ## Operações de Memória
 
-1. Converta para a linguagem Assembly as operações a seguir:
+1. Converta para a linguagem Assembly do 8051 as seguintes operações:
     1. Mover o valor 5 para o acumulador A.
     
     2. Mover o valor 8 para o acumulador A e depois para o registrador R1.
@@ -10,7 +10,7 @@
     
     4. Copiar o valor contido no endereço de memória RAM armazenado no registrador R4 para o registrador R1.
 
-2. Teste os trechos de Assembly no EdSim51. Descreva a operação que cada instrução realiza.
+2. Teste os seguintes trechos de Assembly 8051 no [EdSim51](https://www.edsim51.com/). Descreva a operação que cada instrução realiza.
 
 i.
 ```assembly
