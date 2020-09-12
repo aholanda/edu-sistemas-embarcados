@@ -12,9 +12,7 @@
 
 2. Teste os trechos de Assembly no EdSim51. Descreva a operação que cada instrução realiza.
 
-    1.
-
-```assembly
+    1.```assembly
 MOV A, #4
 ```
 
