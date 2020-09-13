@@ -2,41 +2,41 @@
 ## Operações de Memória
 
 1. Converta para a linguagem Assembly do 8051 as seguintes operações:
-    1. Mover o valor 5 para o acumulador A.
-    
-    2. Mover o valor 8 para o acumulador A e depois para o registrador R1.
-    
-    3. Atribuir o valor 30 para o endereço de memória 4 na RAM, copiar o valor deste endereço para o acumulador A e depois para o registrador R4.
-    
-    4. Copiar o valor contido no endereço de memória RAM armazenado no registrador R4 para o registrador R1.
+    a. Mover o valor 5 para o acumulador A.
+
+    b. Mover o valor 8 para o acumulador A e depois para o registrador R1.
+
+    c. Atribuir o valor 30 para o endereço de memória 4 na RAM, copiar o valor deste endereço para o acumulador A e depois para o registrador R4.
+
+    d. Copiar o valor contido no endereço de memória RAM armazenado no registrador R4 para o registrador R1.
 
 2. Teste os seguintes trechos de Assembly 8051 no [EdSim51](https://www.edsim51.com/). Descreva a operação que cada instrução realiza.
 
-i.
+a.
 ```assembly
 MOV A, #4
 ```
 
-ii.
+b.
 ```assembly
 MOV A, #3
 MOV R0, A
 ```
 
-iii.
+c.
 ```assembly
 MOV A, 4
 MOV R4, A
 ; Atribua um valor qualquer no endereço 4 da RAM
 ```
 
-iv.
+d.
 ```assembly
 MOV 32, #10
 MOV R7, 32
 ```
 
-v.
+e.
 ```assembly
 MOV R1, #7
 MOV 0, @R1
