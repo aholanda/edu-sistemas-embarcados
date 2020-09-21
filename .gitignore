@@ -1,3 +1,7 @@
+# XELaTeX
+*.aux
+*.log
+
 # Prerequisites
 *.d
 
