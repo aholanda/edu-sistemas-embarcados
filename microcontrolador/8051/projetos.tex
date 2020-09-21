@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage[colorlinks=true]{hyperref}
+\setmainlanguage{brazil}
+
+% Instruções
+% Faça o programa em Assembly 8051 descrito no arquivo anexo. Entregue
+% somente o arquivo do código fonte comentado, ou seja, somente um
+% arquivo com extensão ".asm", por exemplo chamado "projeto0.asm"
+
+\def\edsim{\href{https://www.edsim51.com/index.html}{EdSim51}}
+
+\newcounter{prjnum}
+\setcounter{prjnum}{0}
+
+\def\project{\section*{Projeto \arabic{prjnum}}}
+
+\def\switch{
+  \project
+  \begin{enumerate}
+  \item Escreva um valor de $0$ a $9$ no registrador {\tt R1}.
+  \item Após a escrita, o programa deve entrar em um {\it loop\/}
+    infinito e esperar pela seleção de um botão do switch de
+    $0$ a $3$.
+  \item De acordo com o botão selecionado, o padrão referente ao
+    número armazenado no registrador {\tt R1} deve aparecer no
+    display selecionado no botão de {\it switch\/}. Se for selecionado
+    o {\it switch\/} 2, o número deve aparecer no display 2.
+  \end{enumerate}
+
+  Não se preocupe em verificar se mais de 1 {\it switch\/} é selecionado
+  durante a execução do programa. Suponha sempre que somente um {\it \/}
+  será acionado por vez. No \edsim{}, os botões de {\it switch} são os elementos
+  mais a esquerda numerados de 7 a 0.
+}
+
+\def\sum{
+  \project
+  \begin{enumerate}
+  \item Escreva um valor de $0$ a $3$ no registrador {\tt R0} e outro
+    de $0$ a $6$ no registrador {\tt R1}, efetuando a soma e escrevendo
+    o resultado no registrador {\tt R1}.
+  \item Após a escrita, o programa deve entrar em um {\it loop\/}
+    infinito e selecionar o display equivalente ao número armazenado
+    no registrador {\tt R0}. Por exemplo, se o registrador {\tt R0}
+    estiver armazenando o número $2$, o display 2 deve ser
+    selecionado.
+  \item Após a seleção, o padrão referente ao resultado da soma armazenada
+    no registrador {\tt R1} deve aparecer no display selecionado.
+  \end{enumerate}
+
+}
+
+\begin{document}
+\title{Sistemas Embarcados}
+\author{prof. Adriano J.\ Holanda}
+\date{\today}
+\maketitle
+
+Faça um programa em Assembly 8051 e teste-o no simulador \edsim{} que
+execute os seguintes passos:
+
+\switch{}
+%\addtocounter{prjnum}{1}\sum
+
+\paragraph{Instruções Adicionais.}
+\begin{itemize}
+\item Quaisquer valores iniciais dos resgistradores devem ser inseridos
+  diretamente no programa, ou seja, não há interação com o usuário.
+\item Teste o programa várias vezes no \edsim{} antes de realizar a
+  entrega.
+\item Entregue somente um arquivo para avaliação contendo o programa e
+  os comentários das instruções com extensão {\tt asm}, por exemplo,
+  `'{\tt projeto.asm}`'. Não há necessidade de nenhum material
+  adicional.
+\end{itemize}
+
+\vfill
+\noindent Prazo para entrega: até 29/09/2020 às 20:59h.
+
+\end{document}
