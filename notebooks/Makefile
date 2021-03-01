@@ -1,6 +1,6 @@
 %.tex: %.ipynb
 	jupyter nbconvert --to latex --no-input $<
-trash += *.tex
+trash += *.tex *_files
 
 %.pdf: %.tex
 	@xelatex $<
@@ -8,4 +8,4 @@ trash += *.tex
 trash += *.pdf
 
 clean:
-	$(RM) -f *.aux *.log $(trash)
+	$(RM) -r *.aux *.log *.out $(trash)
