@@ -1,0 +1,5 @@
+# Jupyter
+.ipynb_checkpoints/
+*_files/
+*.tex
+*.pdf
