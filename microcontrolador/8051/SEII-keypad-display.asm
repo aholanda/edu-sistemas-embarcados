@@ -48,7 +48,7 @@ setCol2:
 	JNB P0.0, seta		; desvia o fluxo para a escrita do padrão mapeado para o asterisco
 
 set0:	
-	MOV P1, #11100000B	; liga os segmentos que representam o padrão "0"
+	MOV P1, #11000000B	; liga os segmentos que representam o padrão "0"
 	JMP exit
 set1:
 	MOV P1, #11111001B	; liga os segmentos que representam o padrão "1"
