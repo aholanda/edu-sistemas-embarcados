@@ -23,9 +23,11 @@
 \item Aplicações e projetos de sistemas embarcados: microcontrolador 8051, Arduino. 
 \end{enumerate}
 
-\end{document}
-
 \paragraph{Especificidade.}
+
+Os sistemas embarcados possuem uma certa especificidade de aplicação,
+diferente do computadores de propósito geral (desktop, notebook, 
+servidor, workstation)
 
 \begin{enumerate}
 
@@ -35,9 +37,21 @@
 	\item Comunicação e rede: sistemas de telefonia, wireless, roteamento.
 \end{enumerate}
 
+\section*{Microcontroladores}
+
 \paragraph{Arquitetura.}
 
 \begin{center}
-\includegraphics[scale=.5]{img/msc51_arch.png}
+\includegraphics[scale=.7]{img/msc51_arch.png}
 \end{center}
+
+\paragraph{Operação.} Normalmente não é utilizado um sistema operacional, 
+o programador carrega o programa diretamente no controlador.
+
+O fluxo de compilação e carga pode ser:
+Compilação: C → Assembly → Binário
+Compilação: Assembly → Binário
+
+O Assembly é a linguagem projetada para o processador, 
+mas que ainda é inteligível para o programador.
 
