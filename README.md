@@ -1,4 +1,4 @@
-# Curso de Sistemas Embarcados
+# Sistemas Embarcados
 
 ## Conteúdo
 
